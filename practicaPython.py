@@ -110,7 +110,8 @@ def adivinar(opcion):
     contador = 0
     flag = True
     while flag==True:
-        if(opcion==numero):
+        contador+=1
+        if(opcion==numero):          
             return "Cantidad de intentos: ",contador
         elif(opcion=="*"):
             return numero    
